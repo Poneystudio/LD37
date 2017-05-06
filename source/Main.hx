@@ -1,0 +1,29 @@
+package;
+
+import flixel.FlxGame;
+import openfl.display.Sprite;
+
+/**
+ *  THIS IS MY ENTRY TO THE 37th EDITION OF LUDUM DARE
+ * 
+ * 	HERE LIES MY MOOB EXPERIENCE, ENJOY DIGGING THIS
+ * 	IF NOTHING MAKES SENSE, IT IS BECAUSE I LEARNED SO
+ * 	MUCH WHILE DOING IT, MEANING I HAD A COMPLETELY DIFFERENT
+ * 	METHOD OF DOING THINGS BY THE END.
+ * 	BUT I ALSO HAD TO DEAL WITH THE PREVIOUS BAAAAAAAD CODE
+ * 	WHICH RESULTED IN THIS MONSTER OF A SOURCE.
+ *  BY THE MIDDLE OF DAY 2, I ALREADY HAD TROUBLE UNDERSTANDING
+ *  MY OWN CODE.
+ * 
+ * 	ENJOY, DON'T LET YOUR EYES BLEED TO MUCH !
+ * 
+ * @author SoKette
+ */
+class Main extends Sprite
+{
+	public function new()
+	{
+		super();
+		addChild(new FlxGame(240, 128, MenuState, 1, 60, 60, true, false));
+	}
+}
